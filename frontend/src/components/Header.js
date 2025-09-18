@@ -74,7 +74,7 @@ const Header = ({ activeSection }) => {
           {/* CTA Button - Desktop */}
           <div className="hidden lg:flex items-center gap-4">
             <a
-              href={`mailto:${mockData?.contact?.email || 'navis.akbar@email.com'}`}
+              href="mailto:navis.akbar@email.com"
               className="btn-primary text-sm px-6 py-2"
             >
               Hire Me

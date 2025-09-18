@@ -36,7 +36,7 @@ const Header = ({ activeSection }) => {
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled 
         ? 'bg-gray-900/95 backdrop-blur-md border-b border-gray-700/50 shadow-2xl' 
-        : 'bg-transparent'
+        : 'bg-gray-900/80 backdrop-blur-sm'
     }`}>
       <div className="container">
         <nav className="flex items-center justify-between py-4">

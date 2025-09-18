@@ -35,7 +35,7 @@ const Header = ({ activeSection }) => {
   return (
     <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       isScrolled 
-        ? 'bg-gray-900/90 backdrop-blur-md border-b border-gray-700/50 shadow-2xl' 
+        ? 'bg-gray-900/95 backdrop-blur-md border-b border-gray-700/50 shadow-2xl' 
         : 'bg-transparent'
     }`}>
       <div className="container">

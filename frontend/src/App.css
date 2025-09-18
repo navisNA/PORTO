@@ -58,6 +58,9 @@ body {
   -webkit-text-fill-color: transparent;
   background-clip: text;
   margin-bottom: 1rem;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .section-title { 

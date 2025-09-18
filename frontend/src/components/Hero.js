@@ -24,7 +24,7 @@ const Hero = () => {
 
   return (
     <section id="hero" className="hero-section">
-      <div className="container" style={{ position: 'relative', zIndex: 1 }}>
+      <div className="container" style={{ position: 'relative', zIndex: 1, paddingTop: '80px' }}>
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Hero Content */}
           <div className="animate-fade-in">

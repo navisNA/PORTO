@@ -107,7 +107,7 @@ const Header = ({ activeSection }) => {
               {/* Mobile CTA */}
               <div className="pt-4 border-t border-gray-700/50">
                 <a
-                  href={`mailto:${mockData?.contact?.email || 'navis.akbar@email.com'}`}
+                  href="mailto:navis.akbar@email.com"
                   className="btn-primary w-full justify-center"
                 >
                   Hire Me

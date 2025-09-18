@@ -29,7 +29,7 @@ const Hero = () => {
           {/* Hero Content */}
           <div className="animate-fade-in">
             <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full flex items-center justify-content-center animate-pulse">
+              <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-cyan-400 rounded-full flex items-center justify-center">
                 <Zap className="text-white" size={24} />
               </div>
               <span className="text-cyan-400 font-semibold text-lg">Available for Projects</span>

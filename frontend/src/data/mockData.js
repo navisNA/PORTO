@@ -1,9 +1,9 @@
 export const mockData = {
   hero: {
-    name: "Muhammad Navis Akbar",
+    name: "Muhammad Navis Nasrullah Akbar",
     tagline: "Fresh Graduate Manufacturing Engineer | Multimedia Creator",
     description: "Passionate engineering graduate combining technical expertise in manufacturing with creative multimedia skills. Experienced in CAD design, process analysis, videography, photography, and event production.",
-    profileImage: "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
+    profileImage: "https://images.unsplash.com/photo-1758266262432-c04d378ba9ab?q=80&w=627&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D%auto=format&fit=crop&w=1000&q=80",
     stats: [
       { value: "3.52", label: "GPA" },
       { value: "5+", label: "Years Experience" },
@@ -30,7 +30,7 @@ export const mockData = {
         id: 1,
         institution: "Universitas Negeri Yogyakarta",
         degree: "Bachelor of Engineering - Manufacturing Engineering",
-        period: "2019 - 2025",
+        period: "2020 - 2025",
         gpa: "3.52",
         focus: "Design & Analysis of Manufacturing Processes",
         achievements: [
@@ -74,7 +74,7 @@ export const mockData = {
         id: 2,
         title: "Event Producer & Videographer",
         company: "Wang Sinawang & Lir Ilir Events",
-        period: "2022 - Present",
+        period: "2024 - Present",
         type: "Freelance",
         description: "Led comprehensive event production including videography and event management for cultural events.",
         responsibilities: [
@@ -88,8 +88,8 @@ export const mockData = {
       {
         id: 3,
         title: "Multimedia Specialist",
-        company: "Sarah Sechan Sibakul",
-        period: "2021 - Present",
+        company: "Sarasehan Sibakul",
+        period: "2024 - Present",
         type: "Contract",
         description: "Provided comprehensive multimedia support including livestream production and event documentation.",
         responsibilities: [
@@ -149,9 +149,9 @@ export const mockData = {
           { name: "AutoCAD", level: 90, certified: true },
           { name: "SolidWorks", level: 85, certified: false },
           { name: "Adobe Premiere Pro", level: 90, certified: false },
-          { name: "Adobe After Effects", level: 85, certified: false },
+          { name: "Adobe After Effects", level: 50, certified: false },
           { name: "Adobe Photoshop", level: 88, certified: false },
-          { name: "DaVinci Resolve", level: 80, certified: false }
+          { name: "DaVinci Resolve", level: 60, certified: false }
         ]
       }
     ]
@@ -183,8 +183,8 @@ export const mockData = {
           },
           {
             id: 3,
-            title: "Electric Scooter Design",
-            description: "Innovative electric scooter design project using advanced CAD tools and engineering principles.",
+            title: "Product Design Specialist",
+            description: "Innovative product design project using advanced CAD tools and engineering principles.",
             image: "https://images.unsplash.com/photo-1586868538513-51335a0c5337?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwyfHxDQUQlMjBkZXNpZ258ZW58MHx8fHwxNzU4MjAwNTQwfDA&ixlib=rb-4.1.0&q=85",
             technologies: ["CAD Design", "Product Development", "Engineering Analysis"],
             category: "Product Design"
